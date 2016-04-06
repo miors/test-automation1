@@ -11,11 +11,11 @@ import net.thucydides.core.annotations.Steps;
 public class NavigateToLink {
     @Steps
     CustomerSteps customer;
-
+    /*
     @When("I navigate to any link")
     public void customerNavigatesToAnyLink(){ customer.navigates_to_any_link();}
 
     @Then("I am able to navigate successfully")
     public void customerIsAbleToNavigateSuccessfully(){ customer.is_able_to_navigate_successfully();}
-
+    */
 }
