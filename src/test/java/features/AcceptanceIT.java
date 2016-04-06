@@ -6,4 +6,4 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/bdonline")
-public class AcceptanceTests{}
+public class AcceptanceIT {}

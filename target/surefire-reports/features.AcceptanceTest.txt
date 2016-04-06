@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: features.AcceptanceTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.816 sec - in features.AcceptanceTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 140.824 sec - in features.AcceptanceTest
