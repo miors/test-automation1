@@ -4,9 +4,8 @@ features/steps/SearchByKeyword.class
 features/steps/NavigateToWebTestingBook.class
 features/steps/OpenPDFDocument.class
 features/steps/serenity/CustomerSteps.class
+features/AcceptanceIT.class
 features/steps/serenity/BuyerSteps.class
 pageObjects/HomePage.class
 features/steps/NavigateToLink.class
-features/AcceptanceTest.class
 pageObjects/BDonlineHomepage.class
-features/AcceptanceTests.class
