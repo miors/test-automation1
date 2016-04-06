@@ -17,11 +17,6 @@
         <webdriver.driver>firefox</webdriver.driver>
         <surefire.rerunFailingTestsCount>1</surefire.rerunFailingTestsCount>
     </properties>
-    <configuration>
-        <systemPropertyVariables>
-            <webdriver.firefox.bin>/usr/bin/firefox</webdriver.firefox.bin>
-        </systemPropertyVariables>
-    </configuration>
 
     <dependencies>
         <dependency>
@@ -96,7 +91,11 @@
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+                    <systemPropertyVariables>
+                        <webdriver.firefox.bin>/usr/bin/firefox</webdriver.firefox.bin>
+                    </systemPropertyVariables>
                 </configuration>
+
                 <executions>
                     <execution>
                         <goals>
