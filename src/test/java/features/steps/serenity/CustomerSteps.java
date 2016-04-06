@@ -32,8 +32,7 @@ public class CustomerSteps {
 
     @Step
     public void observes_hyperlink_exists(String link){
-        //assertThat(bdOnlineHomepage.getDriver().findElements(By.linkText(link)).size() > 0);
-        assertThat("y").isEqualTo(0);
+        assertThat(bdOnlineHomepage.getDriver().findElements(By.linkText(link)).size() > 0);
     }
 
     @Step

@@ -45,24 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigateToLink.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NavigateToLink.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/NavigateToLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding>
-                <marker date="1459954080214" expanded="true" signature="382:418" placeholder="{...}" />
-                <marker date="1459954080214" expanded="true" signature="522:569" placeholder="{...}" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomerSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/serenity/CustomerSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -83,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/features/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/features/steps/NavigateToLink.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/steps/serenity/CustomerSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/steps/NavigateToLink.java" />
       </list>
     </option>
   </component>
@@ -706,21 +703,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/NavigateToLink.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/serenity/CustomerSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <marker date="1459954080214" expanded="true" signature="382:418" placeholder="{...}" />
-            <marker date="1459954080214" expanded="true" signature="522:569" placeholder="{...}" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/serenity/CustomerSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/steps/NavigateToLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
