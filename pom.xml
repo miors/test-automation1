@@ -14,7 +14,7 @@
         <serenity.version>1.1.29-rc.1</serenity.version>
         <serenity.maven.version>1.1.29-rc.1</serenity.maven.version>
         <serenity.cucumber.version>1.0.18</serenity.cucumber.version>
-        <webdriver.driver>firefox</webdriver.driver>
+        <webdriver.driver>htmlunit</webdriver.driver>
         <surefire.rerunFailingTestsCount>1</surefire.rerunFailingTestsCount>
     </properties>
 
@@ -67,6 +67,12 @@
             <version>1.7.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-htmlunit-driver</artifactId>
+            <version>2.52.0</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
@@ -91,9 +97,9 @@
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
-                    <systemPropertyVariables>
+                    <!--<systemPropertyVariables>
                         <webdriver.firefox.bin>/usr/bin/firefox</webdriver.firefox.bin>
-                    </systemPropertyVariables>
+                    </systemPropertyVariables> -->
                 </configuration>
 
                 <executions>
