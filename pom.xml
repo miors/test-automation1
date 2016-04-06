@@ -76,9 +76,10 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <include>**/features/**/When*.java</include>
+                        <!-- <include>**/features/**/When*.java</include>
                         <include>**/cucumber/junit/**/*.java</include>
-                        <include>**/cucumber/junit/*.java</include>
+                        <include>**/cucumber/junit/*.java</include> -->
+                        <include>**/*AcceptanceIT.java</include>
                     </includes>
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
