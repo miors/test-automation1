@@ -11,7 +11,7 @@ import net.thucydides.core.annotations.Steps;
 public class NavigateToLink {
     @Steps
     CustomerSteps customer;
- 
+
     @When("I navigate to any link")
     public void customerNavigatesToAnyLink(){ customer.navigates_to_any_link();}
 
