@@ -94,7 +94,7 @@
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
                     <!--<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
-                    <argLine>-javaagent:serenity/serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}}</argLine>
+                    <argLine>-javaagent:serenity/serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}</argLine>
                     <!--<systemPropertyVariables>
                         <webdriver.firefox.bin>/usr/bin/firefox</webdriver.firefox.bin>
                     </systemPropertyVariables> -->
