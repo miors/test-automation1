@@ -17,6 +17,8 @@
         <serenity.cucumber.version>1.0.18</serenity.cucumber.version>
         <webdriver.driver>firefox</webdriver.driver>
         <surefire.rerunFailingTestsCount>1</surefire.rerunFailingTestsCount>
+        <included.packages>-Dincluded.packages=features</included.packages>
+        <included.adapters>-Dincluded.adapters=coverage,complexity,dependency</included.adapters>
     </properties>
 
     <dependencies>
@@ -91,7 +93,8 @@
                     </includes>
                     <reuseForks>true</reuseForks>
                     <!--<forkCount>2</forkCount>-->
-                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+                    <!--<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
+                    <argLine>-javaagent:serenity/serenity.jar -Xms512m -Xmx1024m ${included.packages} ${included.adapters}}</argLine>
                     <!--<systemPropertyVariables>
                         <webdriver.firefox.bin>/usr/bin/firefox</webdriver.firefox.bin>
                     </systemPropertyVariables> -->
