@@ -8,7 +8,7 @@ Feature: Navigate to site
     Given I navigate to the website
     When I observe the page title
     Then I should observe the title is 'The Web Testing Book'
-
+  @tag2
   Scenario: Link should exist
     Given I navigate to the website
     Then I should observe the hyperlink 'Techwell.com' exists
