@@ -94,8 +94,10 @@
                     <includes>
                         <include>**/*AcceptanceTests.java</include>
                     </includes>
-                    <reuseForks>false</reuseForks>
-                    <forkCount>2.5C</forkCount>
+                    <!--<reuseForks>false</reuseForks>
+                    <forkCount>2.5C</forkCount>-->
+                    <parallel>all</parallel>
+                    <threadCount>3</threadCount>
                     <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
                 </configuration>
 
