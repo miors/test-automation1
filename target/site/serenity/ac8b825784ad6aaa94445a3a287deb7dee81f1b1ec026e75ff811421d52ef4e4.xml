@@ -1,0 +1,32 @@
+<acceptance-test-run title="Link should exist" name="Link should exist" description="" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12392" timestamp="2016-04-22T13:46:12.761+01:00" session-id="9add942a-92f8-45c5-b88e-c677e338b2f3">
+  <user-story id="navigate-to-site" name="Navigate to site" path="NavigateToSite.feature"/>
+  <tags>
+    <tag name="Bdonline" type="capability"/>
+    <tag name="Bdonline/Navigate to site" type="feature"/>
+    <tag name="tag2" type="tag"/>
+  </tags>
+  <test-group name="Given I navigate to the website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="127c6eb149b4065ca575ee44e0fc6b28.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8212">
+      <screenshots>
+        <screenshot image="8fc88fa1abb0ce19d52368c367f571b4.png"/>
+      </screenshots>
+      <description>Opens bdonline home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should observe the hyperlink &apos;Techwell.com&apos; exists" result="SUCCESS">
+    <screenshots>
+      <screenshot image="856e21b4cde9c264cb7b2a040dab6a3e.png"/>
+      <screenshot image="95cc86990d9e2897f4d4234146c5b0d7.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2743">
+      <screenshots>
+        <screenshot image="f4c469423d3c9d54f362ac88a360f088.png"/>
+        <screenshot image="11aace7f36c8d310ece61396dc3faee9.png"/>
+      </screenshots>
+      <description>Observes hyperlink exists: &lt;span class=&apos;step-parameter&apos;&gt;Techwell.com&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,50 @@
+<acceptance-test-run title="Should be able to navigate to web testing handbook" name="Should be able to navigate to web testing handbook" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17691" timestamp="2016-04-22T13:46:25.695+01:00" session-id="67526dbc-58a0-4476-acb5-a5660d0cf99a">
+  <user-story id="navigate-to-web-testing-book" name="Navigate to web testing book" path="NavigateToWebTestingBook.feature"/>
+  <tags>
+    <tag name="Bdonline" type="capability"/>
+    <tag name="Bdonline/Navigate to web testing book" type="feature"/>
+  </tags>
+  <test-group name="Given I navigate to the website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a619d136b83869bfa4814ef3940de7d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8094">
+      <screenshots>
+        <screenshot image="95cc86990d9e2897f4d4234146c5b0d7.png"/>
+      </screenshots>
+      <description>Opens bdonline home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I choose the web testing handbook link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="20f24d466f1ff5be4891e24014510d9a.png"/>
+      <screenshot image="9e8f102476f9d43fd0addfe2f506088f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1850">
+      <screenshots>
+        <screenshot image="23163a34a76b4af22d86dc7ff94354f5.png"/>
+        <screenshot image="34381137b0810840795da69eb317f23b.png"/>
+      </screenshots>
+      <description>Chooses web testing handbook link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can navigate to &apos;TechWell&apos; page successfully" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7be917b108dd718ee40b571973e7772e.png"/>
+      <screenshot image="10f79ca2463f0059ef5e5100d5ce67cd.png"/>
+    </screenshots>
+    <test-group name="Can navigate successfully: &lt;span class=&apos;step-parameter&apos;&gt;TechWell&lt;/span&gt;" result="SUCCESS">
+      <screenshots>
+        <screenshot image="014e51b553f30e09d384b6979443cf8b.png"/>
+        <screenshot image="8ad6b44985cc3c8ca0ddf2bf271c8563.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2055">
+        <screenshots>
+          <screenshot image="5cfc8d5dfa587f834b7f923916b027de.png"/>
+          <screenshot image="0bcecc39a1b15ae874cc412d21553c34.png"/>
+        </screenshots>
+        <description>Observes page title</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

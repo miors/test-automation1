@@ -1,0 +1,42 @@
+<acceptance-test-run title="Should be able to open PDF document" name="Should be able to open PDF document" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14964" timestamp="2016-04-22T13:46:44.111+01:00" session-id="788f35ad-93a8-4834-9813-45713d8842e7">
+  <user-story id="open-a-pdf-file" name="Open a PDF File" path="OpenPDFFile.feature"/>
+  <tags>
+    <tag name="Open a PDF File" type="feature"/>
+  </tags>
+  <test-group name="Given I navigate to the website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7df37d5c4a126a62d4ed7120ecb0fd83.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7215">
+      <screenshots>
+        <screenshot image="ee22e102b51167fe88db87987ae8cb55.png"/>
+      </screenshots>
+      <description>Opens bdonline home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I navigate to the PDF document" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6927312dc35d3f91eac1d3a7db138eb4.png"/>
+      <screenshot image="3b1fa1ac5e345b3777ca65dad701a6de.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1774">
+      <screenshots>
+        <screenshot image="856e21b4cde9c264cb7b2a040dab6a3e.png"/>
+        <screenshot image="3b1fa1ac5e345b3777ca65dad701a6de.png"/>
+      </screenshots>
+      <description>Navigates to the pdf document</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I am able to open PDF document successfully" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e3d77e4ae330acf12059aec9b9a4b0e9.png"/>
+      <screenshot image="dab41b2975c8d8bba80f89a30f65c8f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3334">
+      <screenshots>
+        <screenshot image="dab41b2975c8d8bba80f89a30f65c8f0.png"/>
+      </screenshots>
+      <description>Is able to open pdf document successfully</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

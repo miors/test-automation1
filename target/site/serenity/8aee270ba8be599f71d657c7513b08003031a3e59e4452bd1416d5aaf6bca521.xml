@@ -1,0 +1,44 @@
+<acceptance-test-run title="Should be able to navigate to Company&apos;s website" name="Should be able to navigate to Company&apos;s website" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19680" timestamp="2016-04-22T13:45:52.432+01:00" session-id="921e660e-fbb6-486a-98a6-911eb0ba39ce">
+  <user-story id="navigate-to-site" name="Navigate to site" path="NavigateToSite.feature"/>
+  <tags>
+    <tag name="Bdonline" type="capability"/>
+    <tag name="Bdonline/Navigate to site" type="feature"/>
+  </tags>
+  <test-group name="Given I navigate to the website" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6927312dc35d3f91eac1d3a7db138eb4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="15809">
+      <screenshots>
+        <screenshot image="95cc86990d9e2897f4d4234146c5b0d7.png"/>
+      </screenshots>
+      <description>Opens bdonline home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I observe the page title" result="SUCCESS">
+    <screenshots>
+      <screenshot image="23163a34a76b4af22d86dc7ff94354f5.png"/>
+      <screenshot image="95cc86990d9e2897f4d4234146c5b0d7.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="680">
+      <screenshots>
+        <screenshot image="1c2bb394086bce2f8a95d32390c86883.png"/>
+        <screenshot image="11aace7f36c8d310ece61396dc3faee9.png"/>
+      </screenshots>
+      <description>Observes page title</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should observe the title is &apos;The Web Testing Book&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a619d136b83869bfa4814ef3940de7d.png"/>
+      <screenshot image="8fc88fa1abb0ce19d52368c367f571b4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="948">
+      <screenshots>
+        <screenshot image="856e21b4cde9c264cb7b2a040dab6a3e.png"/>
+        <screenshot image="f4c469423d3c9d54f362ac88a360f088.png"/>
+      </screenshots>
+      <description>Verifies page title: &lt;span class=&apos;step-parameter&apos;&gt;The Web Testing Book&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -15,7 +15,7 @@
         <serenity.version>1.1.29-rc.1</serenity.version>
         <serenity.maven.version>1.1.29-rc.1</serenity.maven.version>
         <serenity.cucumber.version>1.0.18</serenity.cucumber.version>
-        <webdriver.driver>firefox</webdriver.driver>
+        <!--<webdriver.driver>firefox</webdriver.driver>-->
         <surefire.rerunFailingTestsCount>1</surefire.rerunFailingTestsCount>
     </properties>
 

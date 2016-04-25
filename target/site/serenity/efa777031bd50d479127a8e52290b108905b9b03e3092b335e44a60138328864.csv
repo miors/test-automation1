@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Navigate to site","Link should exist","SUCCESS","2016-04-11T14:38:23.359+01:00","0.0","9.74"
+"Navigate to link","Should be able to click on link and navigate","SUCCESS","2016-04-11T14:37:41.740+01:00","0.0","25.2"
+"Navigate to site","Should be able to navigate to Company's website","SUCCESS","2016-04-11T14:38:11.309+01:00","0.0","11.63"
+"Navigate to web testing book","Should be able to navigate to web testing handbook","SUCCESS","2016-04-11T14:38:33.562+01:00","0.0","14.33"
+"Open a PDF File","Should be able to open PDF document","SUCCESS","2016-04-11T14:38:48.518+01:00","0.0","11.14"

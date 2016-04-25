@@ -3,7 +3,9 @@ package features.steps;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import features.steps.serenity.CustomerSteps;
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
+import org.junit.Ignore;
 
 /**
  * Created by mior on 01/04/16.

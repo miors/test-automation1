@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Navigate to site" skipped="0" tests="2" time="32.07" timestamp="2016-04-113 01:45:52"><testcase name="Should be able to navigate to Company's website"/><testcase name="Link should exist"/></testsuite>
